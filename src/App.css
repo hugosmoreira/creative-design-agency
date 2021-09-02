@@ -1,0 +1,12 @@
+/* navbar */
+
+.logo {
+    width: 12.25rem;
+}
+
+
+nav a.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
