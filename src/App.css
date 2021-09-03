@@ -93,6 +93,12 @@
   }
 
 
+  @media(max-width: 768px){
+    .main-info h1 {
+        font-size: 1.7rem !important;
+    }
+  }
+
   /* ---  typed text -- */
 
   .typed-text {
@@ -100,6 +106,11 @@
       font-size: 2rem;
   }
 
+  @media(max-width: 768px){
+    .typed-text {
+        font-size: 1.3rem !important;
+    }
+  }
 
   /* --- header main offer button ---*/
 
@@ -129,4 +140,11 @@
       height: 100vh;
       width: 100vw;
       z-index: 1;
+  }
+
+  @media (max-width: 768px) {
+      .particles-canvas {
+        display: none;
+      }
+      
   }

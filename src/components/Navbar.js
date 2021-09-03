@@ -11,12 +11,12 @@ const Navbar = () => {
             
         
       <div className="container-fluid">
-        <div>
+        <div className="navbar-header">
             <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..." /></a>
         </div>
         
 
-        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1"
         aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"> <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} /></span></button>
         
         
